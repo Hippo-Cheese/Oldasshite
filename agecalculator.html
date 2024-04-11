@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="hobbit js.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>cheeseballs</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Age calculator</title>
+    
+  </head>
+  <body>
+    <div id="root"><main class="min-h-screen bg-offWhite p-4 desktop:grid desktop:place-items-center">
+        <div class="bg-white mt-20 rounded-3xl rounded-br-[7rem] px-8 py-14 w-full max-w-2xl mx-auto desktop:px-10 desktop:mt-0 desktop:rounded-br-[12rem]">
+            <form novalidate="">
+                <div class="grid grid-cols-3 gap-4 max-w-md"><label>
+                    <span class="text-lightRed mb-2 block uppercase font-bold tracking-widest text-sm">Day</span>
+                    <input class="w-full placeholder:font-extrabold py-3 px-2 font-extrabold text-xl text-offBlack border rounded-md focus:outline-none caret-purple border-lightRed" type="number" placeholder="DD" name="day" aria-invalid="true">
+                    <span class="text-lightRed text-sm mt-1" role="alert">Day is required</span></label>
+                    <label><span class="text-smokeyGray mb-2 block uppercase font-bold tracking-widest text-sm">Month</span>
+                    <input class="w-full placeholder:font-extrabold py-3 px-2 font-extrabold text-xl text-offBlack border rounded-md focus:outline-none caret-purple border-lightGray focus:border-purple" type="number" placeholder="MM" name="month" aria-invalid="false"></label>
+                    <label><span class="text-smokeyGray mb-2 block uppercase font-bold tracking-widest text-sm">Year</span>
+                    <input class="w-full placeholder:font-extrabold py-3 px-2 font-extrabold text-xl text-offBlack border rounded-md focus:outline-none caret-purple border-lightGray focus:border-purple" type="number" placeholder="YYYY" name="year" aria-invalid="false"></label></div>
+                    <div class="relative text-center desktop:text-end my-9"><div class="h-[1px] bg-lightGray absolute 
+    left-0 right-0 top-1/2"></div>
+    <button type="submit" class="bg-purple rounded-full p-5 hover:bg-offBlack relative" aria-label="calculate"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="0.957em" viewBox="0 0 46 44" class="text-2xl desktop:stroke-2 desktop:text-4xl stroke-[4]"><g fill="none" stroke="#FFF"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"></path></g></svg></button></div></form><div class="space-y-3"><p class="text-5xl desktop:text-6xl font-extrabold italic"><span class="text-purple">--</span> years</p><p class="text-5xl desktop:text-6xl font-extrabold italic"><span class="text-purple">--</span> months</p><p class="text-5xl desktop:text-6xl font-extrabold italic"><span class="text-purple">--</span> days</p></div></div></main></div>
+    
+    </body>
+  </body>
+</html>
