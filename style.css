@@ -1,9 +1,61 @@
-:root{
-    --color-purple: hsl(259, 100%, 65%);
-    --color-lightRed: hsl(0, 100%, 67%);
-    --color-white: hsl(0, 0%, 100%);
-    --color-offWhite: hsl(0, 0%, 94%);
-    --color-lightGrey: hsl(0, 0%, 86%);
-    --color-smokeyGrey: hsl(0, 1%, 44%);
-    --color-offBlack: hsl(0, 0%, 8%);
-  }
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply styles to the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-offWhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Apply styles to the form */
+form {
+  background-color: #DDD0C8; /* Updated box background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  position: relative; /* Position relative for the faded edge */
+}
+
+/* Apply styles to the containers */
+.container1,
+.container2,
+.container3 {
+  margin-bottom: 20px;
+}
+
+/* Apply styles to the input fields */
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid var(--color-lightGrey);
+  border-radius: 5px;
+}
+
+/* Apply styles to the submit button */
+#submit-btn {
+  background-color: var(--color-purple);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Apply styles to the error messages */
+.error-message {
+  color: var(--color-lightRed);
+  display: none;
+}
+
+/* Apply styles to the logo 
